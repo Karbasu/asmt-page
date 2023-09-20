@@ -1,0 +1,129 @@
+.login {
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+}
+
+.login_slash {
+    flex: 1;
+    background-color: #007bff;
+    transform-origin: left top;
+    transform: skew(-20deg);
+    height: 100vh;
+    /* Set the height to cover the entire viewport height */
+    min-width: 10%;
+    position: relative;
+    z-index: -1;
+}
+.login_logo{
+    color:white;
+    padding: 10px;
+    margin-left: 10px;
+}
+.login_slash_center{
+    color:white;
+   
+margin-left:50%;
+margin-top:40%;
+}
+.login_page {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+    background-color: white;
+
+}
+
+.login_details {
+    margin-top: 20px;
+    align-self:center;
+    width: 300px;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    border: 2px solid whitesmoke;
+    background-color: white;
+    padding: 10px;
+}
+
+.login_details>form>h5 {
+    margin-left: 5px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.login_details>form>h6 {
+    margin-left: 10px;
+    margin-top: 10px;
+    color: #007bff;
+    font-weight: 1200;
+
+}
+
+.login_details>form>input {
+    border-radius: 15px;
+    border: 0px solid white;
+    height: 30px;
+    width: 98%;
+    background-color: rgb(237, 237, 237);
+}
+
+.login_details>form>button {
+    margin-top: 30px;
+    height: 30px;
+    width: 300px;
+    border: 0px;
+    border-radius: 10px;
+    background-color: #007bff;
+    color:white;
+}
+
+.login_details>form>p {
+    margin-left: 25px;
+    margin-top: 20px;
+    font-weight: 1200;
+    font-weight: 100;
+    font-size: small;
+
+}
+
+.login_details>form>p>span {
+
+    color: #007bff;
+    font-weight: 900;
+}
+h4{
+    margin-bottom:20px;
+    font-weight:100;
+}
+a{
+    padding:5px;
+    margin-top: 10px;
+    margin-right:10px;
+    margin-left:10px;
+    border:1.5px solid rgb(237, 237, 237);
+    border-radius: 15px;
+    background-color:white;
+    font-size: 15px;
+}
+.google_img{
+    height:12px;
+    margin-right:10px;
+    margin-left:5px;
+}
+
+@media screen and (max-width: 740px) {
+    a{
+        padding:5px;
+        margin-top: 5px;
+        margin-right:5px;
+        margin-left:5px;
+        border:1.5px solid rgb(237, 237, 237);
+        border-radius: 15px;
+        background-color:white;
+        font-size: 10px;
+    }
+  }
