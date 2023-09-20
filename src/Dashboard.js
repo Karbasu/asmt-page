@@ -35,7 +35,6 @@ function Dashboard() {
     setShowBasic(false);
     setShowContact(false);
     setShowButtons(false);
-    // Clear form fields when the modal is closed
     setName("");
     setEmail("");
     setPhoneNumber("");
